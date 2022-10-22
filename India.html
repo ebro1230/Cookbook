@@ -190,7 +190,9 @@
             </tbody>
           </table>
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">Share Recipe</button>
+            <button class="btn btn-primary button" type="button">
+              Share Recipe
+            </button>
           </div>
         </div>
 
@@ -202,7 +204,7 @@
             and comforting, you can adjust the amount of garlic to suit your own
             tastes.
           </div>
-          <div><img src="garlicChicken.jpg" alt="" width="380" /></div>
+          <div><img src="garlicChicken.jpg" alt="" width="500" /></div>
           <!-- Ingriends table -->
           <table class="table table-hover">
             <thead>
@@ -303,10 +305,21 @@
             </tbody>
           </table>
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">Share Recipe</button>
+            <button class="btn btn-primary button" type="button">
+              Share Recipe
+            </button>
           </div>
         </div>
       </div>
     </div>
   </body>
+
+  <script>
+    function shareRecipe() {
+      alert("test");
+    }
+
+    let button = document.querySelector(".button");
+    button.addEventListener("click", shareRecipe);
+  </script>
 </html>
