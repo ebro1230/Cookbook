@@ -6,7 +6,11 @@ p.description{
 }
 .Title{
     font-weight:700;
-    text-decoration:underline; 
+    text-decoration:underline;
+    padding-top:1em; 
+}
+#first-card{
+  margin-top:4em;
 }
 .hover {
     position: relative;
@@ -39,3 +43,4 @@ p.description{
   .hover:hover .overlay {
     opacity: 1;
   }
+ 
