@@ -1,5 +1,6 @@
 div{
     padding:0.4em;
+    height:auto;
 }
 p.description{
     font-style:italic;
@@ -43,4 +44,43 @@ p.description{
   .hover:hover .overlay {
     opacity: 1;
   }
- 
+  body, html {
+    height: auto;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("Main Background.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+  .America {
+    /* The image used */
+    background-image: url("America Background.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+  .Germany {
+    /* The image used */
+    background-image: url("Germany Background.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
