@@ -2,6 +2,7 @@ div{
     padding:0.4em;
     height:auto;
 }
+
 p.description{
     font-style:italic;
 }
@@ -84,3 +85,4 @@ p.description{
     background-repeat: repeat-y;
     background-size: cover;
   }
+
