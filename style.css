@@ -2,7 +2,6 @@ div{
     padding:0.4em;
     height:auto;
 }
-
 p.description{
     font-style:italic;
 }
@@ -45,6 +44,65 @@ p.description{
   .hover:hover .overlay {
     opacity: 1;
   }
+
+
+  /*EROL START*/
+  .imgshake img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.myslideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: block;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.mySlides .active, .dot:hover {
+  background-color: #717171;
+}
+
+.myfade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+  
+   /*EROL END*/
+
   body, html {
     height: auto;
   }
@@ -63,7 +121,7 @@ p.description{
   }
   .America {
     /* The image used */
-    background-image: url("America Background.jpg");
+    background-image: url("Background.jpg");
   
     /* Full height */
     height: 100%;
@@ -75,7 +133,7 @@ p.description{
   }
   .Germany {
     /* The image used */
-    background-image: url("Germany Background.jpg");
+    background-image: url("Background.jpg");
   
     /* Full height */
     height: 100%;
