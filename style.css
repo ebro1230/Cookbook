@@ -1,12 +1,18 @@
 div{
     padding:0.4em;
+    height:auto;
 }
+
 p.description{
     font-style:italic;
 }
 .Title{
     font-weight:700;
-    text-decoration:underline; 
+    text-decoration:underline;
+    padding-top:1em; 
+}
+#first-card{
+  margin-top:4em;
 }
 .hover {
     position: relative;
@@ -41,6 +47,7 @@ p.description{
   }
 
 
+
   /*EROL START*/
   .imgshake img:hover {
     animation: shake 0.5s;
@@ -63,4 +70,46 @@ p.description{
 
   
    /*EROL END*/
+
+  body, html {
+    height: auto;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("Main Background.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+  .America {
+    /* The image used */
+    background-image: url("America Background.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+  .Germany {
+    /* The image used */
+    background-image: url("Germany Background.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+
 
