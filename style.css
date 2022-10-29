@@ -2,7 +2,6 @@ div{
     padding:0.4em;
     height:auto;
 }
-
 p.description{
     font-style:italic;
 }
@@ -45,7 +44,6 @@ p.description{
   .hover:hover .overlay {
     opacity: 1;
   }
-
 
 
   /*EROL START*/
@@ -127,7 +125,7 @@ p.description{
   }
   .America {
     /* The image used */
-    background-image: url("America Background.jpg");
+    background-image: url("Background.jpg");
   
     /* Full height */
     height: 100%;
@@ -139,7 +137,7 @@ p.description{
   }
   .Germany {
     /* The image used */
-    background-image: url("Germany Background.jpg");
+    background-image: url("Background.jpg");
   
     /* Full height */
     height: 100%;
@@ -150,4 +148,7 @@ p.description{
     background-size: cover;
   }
 
-
+.england{
+  background-color: rgb(43, 87, 172);
+    
+  }
