@@ -66,13 +66,6 @@ p.description{
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
-
-<<<<<<< Updated upstream
-  /* Slideshow container */
-=======
-
-/* Slideshow container */
->>>>>>> Stashed changes
 .myslideshow-container {
   max-width: 1000px;
   position: relative;
@@ -83,7 +76,6 @@ p.description{
   display: block;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -99,8 +91,7 @@ p.description{
   background-color: #717171;
 }
 
-/* Fading animation */
-.fade {
+.myfade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
@@ -109,10 +100,6 @@ p.description{
   from {opacity: .4}
   to {opacity: 1}
 }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
   
    /*EROL END*/
 
