@@ -67,7 +67,12 @@ p.description{
   }
 
 
+<<<<<<< Updated upstream
   /* Slideshow container */
+=======
+
+/* Slideshow container */
+>>>>>>> Stashed changes
 .myslideshow-container {
   max-width: 1000px;
   position: relative;
@@ -104,6 +109,10 @@ p.description{
   from {opacity: .4}
   to {opacity: 1}
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
   
    /*EROL END*/
 
