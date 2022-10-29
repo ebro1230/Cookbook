@@ -62,7 +62,7 @@ p.description{
   }
   .America {
     /* The image used */
-    background-image: url("America Background.jpg");
+    background-image: url("Background.jpg");
   
     /* Full height */
     height: 100%;
@@ -74,7 +74,7 @@ p.description{
   }
   .Germany {
     /* The image used */
-    background-image: url("Germany Background.jpg");
+    background-image: url("Background.jpg");
   
     /* Full height */
     height: 100%;
