@@ -143,8 +143,12 @@ p.description{
     background-repeat: repeat-y;
     background-size: cover;
   }
-
-  .england{
-
+ /* Luis */
+    button {
+    font-size: 1.1em;
+    background-color: #041322;
+    color: #bababa;
+    border: 3px solid black;
+    box-shadow: 10px 10px 10px #999999;
   }
-  
+
